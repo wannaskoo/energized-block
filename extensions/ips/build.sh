@@ -49,7 +49,6 @@ divider='------------------------------------------------------------' 2>/dev/nu
 #-------------------------------------------------------------------------------#
 pack="ips"
 dividerTiny="--------------------------------------------"
-headerLogo="#    _____  _________  _____________  _______\n#   / __/ |/ / __/ _ \/ ___/  _/_  / / __/ _ \ \n#  / _// ,  / _// , _/ (_ // /  / /_/ _// // /\n# /___/_/|_/___/_/|_|\___/___/ /___/___/____/\n#\n#    P   R   O   T   E   C   T   I   O   N\n# $dividerTiny\n#          ad.porn.malware blocking.\n#                   ------\n#      Merged collection of hosts from\n#             reputable sources.\n# $dividerTiny\n#               energized.pro\n#    github.com/EnergizedProtection/block\n# $dividerTiny\n#\n#        Let's make an annoyance free\n#      better open internet. Altogether.\n#                  ------\n#"
 f1="_hosts based: based on Hosts file."
 f2="_any device: compatible with all devices."
 f3="_blockings: strictly blocks web annoyances."

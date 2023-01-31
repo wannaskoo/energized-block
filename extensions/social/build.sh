@@ -58,11 +58,29 @@ divider='------------------------------------------------------------' 2>/dev/nu
 #-------------------------------------------------------------------------------#
 pack="social"
 dividerTiny="--------------------------------------------"
-headerLogo="#    _____  _________  _____________  _______\n#   / __/ |/ / __/ _ \/ ___/  _/_  / / __/ _ \ \n#  / _// ,  / _// , _/ (_ // /  / /_/ _// // /\n# /___/_/|_/___/_/|_|\___/___/ /___/___/____/\n#\n#    P   R   O   T   E   C   T   I   O   N\n# $dividerTiny\n#          ad.porn.malware blocking.\n#                   ------\n#      Merged collection of hosts from\n#             reputable sources.\n# $dividerTiny\n#               energized.pro\n#    github.com/EnergizedProtection/block\n# $dividerTiny\n#\n#        Let's make an annoyance free\n#      better open internet. Altogether.\n#                  ------\n#"
-headerLogoAB="!    _____  _________  _____________  _______\n!   / __/ |/ / __/ _ \/ ___/  _/_  / / __/ _ \ \n!  / _// ,  / _// , _/ (_ // /  / /_/ _// // /\n! /___/_/|_/___/_/|_|\___/___/ /___/___/____/\n!\n!    P   R   O   T   E   C   T   I   O   N\n! $dividerTiny\n!          ad.porn.malware blocking.\n!                   ------\n!      Merged collection of hosts from\n!             reputable sources.\n! $dividerTiny\n!               energized.pro\n!    github.com/EnergizedProtection/block\n! $dividerTiny\n!\n!        Let's make an annoyance free\n!      better open internet. Altogether.\n!                  ------\n!"
-headerLogoRPZ=";    _____  _________  _____________  _______\n;   / __/ |/ / __/ _ \/ ___/  _/_  / / __/ _ \ \n;  / _// ,  / _// , _/ (_ // /  / /_/ _// // /\n; /___/_/|_/___/_/|_|\___/___/ /___/___/____/\n;\n;    P   R   O   T   E   C   T   I   O   N\n; $dividerTiny\n;          ad.porn.malware blocking.\n;                   ------\n;      Merged collection of hosts from\n;             reputable sources.\n; $dividerTiny\n;               energized.pro\n;    github.com/EnergizedProtection/block\n; $dividerTiny\n;\n;        Let's make an annoyance free\n;      better open internet. Altogether.\n;                  ------\n;"
-localHost="# $dividerTiny\n# L O C A L  H O S T\n# $dividerTiny\n127.0.0.1 localhost\n127.0.0.1 localhost.localdomain\n127.0.0.1 local\n255.255.255.255 broadcasthost\n::1 localhost\n::1 ip6-localhost\n::1 ip6-loopback\nfe80::1%lo0 localhost\nff00::0 ip6-localnet\nff00::0 ip6-mcastprefix\nff02::1 ip6-allnodes\nff02::2 ip6-allrouters\nff02::3 ip6-allhosts\n0.0.0.0 0.0.0.0\n# $dividerTiny"
-localHostRPZ="; $dividerTiny\n; R P Z\n; $dividerTiny\n\$TTL 2h\n@ IN SOA localhost. root.localhost. (1 6h 1h 1w 2h)\n  IN NS  localhost.\n; $dividerTiny"
+localHost="
+# $dividerTiny
+# L O C A L  H O S T
+# $dividerTiny
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+# $dividerTiny"
+localHostRPZ="; $dividerTiny\n
+; R P Z\n
+; $dividerTiny\n\$TTL 2h\n@ IN SOA localhost. root.localhost. (1 6h 1h 1w 2h)\n  IN NS  localhost.\n; 
+# $dividerTiny"
 f1="_hosts based: based on Hosts file."
 f2="_any device: compatible with all devices."
 f3="_blockings: strictly blocks web annoyances."
@@ -191,20 +209,6 @@ echo "$headerLogo
 # $dividerTiny
 #
 $localHost
-#
-# $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
-# $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
 # Build Hosts
@@ -232,20 +236,6 @@ echo "$headerLogo
 # $dividerTiny
 #
 $localHost
-#
-# $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
-# $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
 # Build Hosts
@@ -275,18 +265,6 @@ echo "$headerLogo
 $localHost
 #
 # $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
-# $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
 # Build Hosts
@@ -311,21 +289,6 @@ echo "$headerLogo
 # License: $license
 # Updated: $updateDate
 # RAW: $raw/domains.txt
-# $dividerTiny
-#
-# $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
-# $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
 # Build Domain List
@@ -352,20 +315,6 @@ echo "$headerLogoAB
 ! Updated: $updateDate
 ! RAW: $raw/filter
 ! $dividerTiny
-!
-! $dividerTiny
-! F E A T U R E S
-! $dividerTiny
-! $f1\n! $f2\n! $f3\n! $f4\n! $f5\n! $f6\n! $f7\n! $f8
-! $dividerTiny
-!
-! $dividerTiny
-! T E A M  B O L T Z - meet the team
-! $dividerTiny
-! $ador\n! $avinash\n! $badmojr
-! $dividerTiny
-!
-! $dividerTiny
 ! E N E R G I Z E D  B E G I N S
 ! $dividerTiny" >> $temp
 # Build Filter
@@ -390,21 +339,6 @@ echo "$headerLogo
 # License: $license
 # Updated: $updateDate
 # RAW: $raw/dnsmasq.conf
-# $dividerTiny
-#
-# $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
-# $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
 # Build DNSMasq
@@ -429,21 +363,6 @@ echo "$headerLogo
 # License: $license
 # Updated: $updateDate
 # RAW: $raw/dnsmasq-ipv6.conf
-# $dividerTiny
-#
-# $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
-# $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
 # Build DNSMasq IPV6
@@ -468,20 +387,6 @@ echo "$headerLogo
 # License: $license
 # Updated: $updateDate
 # RAW: $raw/unbound.conf
-# $dividerTiny
-#
-# $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
 # $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
@@ -510,20 +415,6 @@ echo "$headerLogoRPZ
 ; $dividerTiny
 ;
 $localHostRPZ
-;
-; $dividerTiny
-; F E A T U R E S
-; $dividerTiny
-; $f1\n; $f2\n; $f3\n; $f4\n; $f5\n; $f6\n; $f7\n; $f8
-; $dividerTiny
-;
-; $dividerTiny
-; T E A M  B O L T Z - meet the team
-; $dividerTiny
-; $ador\n; $avinash\n; $badmojr
-; $dividerTiny
-;
-; $dividerTiny
 ; E N E R G I Z E D  B E G I N S
 ; $dividerTiny" >> $temp
 # Build RPZ
@@ -548,20 +439,6 @@ echo "$headerLogo
 # License: $license
 # Updated: $updateDate
 # RAW: $raw/one-line.txt
-# $dividerTiny
-#
-# $dividerTiny
-# F E A T U R E S
-# $dividerTiny
-# $f1\n# $f2\n# $f3\n# $f4\n# $f5\n# $f6\n# $f7\n# $f8
-# $dividerTiny
-#
-# $dividerTiny
-# T E A M  B O L T Z - meet the team
-# $dividerTiny
-# $ador\n# $avinash\n# $badmojr
-# $dividerTiny
-#
 # $dividerTiny
 # E N E R G I Z E D  B E G I N S
 # $dividerTiny" >> $temp
