@@ -39,8 +39,6 @@ buildVersion=$(date +%y.%m.%j.%H)
 releaseVersion=$(date +%j%H%M)
 license="CC BY-NC-SA 4.0, https://energized.pro/license"
 git="https://github.com/EnergizedProtection/block"
-gitlab="https://gitlab.com/EnergizedProtection/block"
-website="https://energized.pro"
 updateDate=$(date +"%a, %d %b %y %H:%M:%S %Z")
 
 
@@ -65,9 +63,7 @@ echo "! Project: $project
 
 ! License: $license
 
-! Github: $git
-
-! Web: $website" >> $versionMD
+! Github:" $git >> $versionMD
 
 #-------------------------------------------------------------------------------#
 #---------------------------------- D O N E  -----------------------------------#

@@ -1,0 +1,15 @@
+#    _____  _________  _____________  _______\n#   / __/ |/ / __/ _ \/ ___/  _/_  / / __/ _ \ \n#  / _// ,  / _// , _/ (_ // /  / /_/ _// // /\n# /___/_/|_/___/_/|_|\___/___/ /___/___/____/\n#\n#    P   R   O   T   E   C   T   I   O   N\n# --------------------------------------------\n#          ad.porn.malware blocking.\n#                   ------\n#      Merged collection of hosts from\n#             reputable sources.\n# --------------------------------------------\n#               energized.pro\n#    github.com/EnergizedProtection/block\n# --------------------------------------------\n#\n#        Let's make an annoyance free\n#      better open internet. Altogether.\n#                  ------\n# Title: fademind-add.dead Custom Hosts Build\n# Builds Maintainer: Nayem Ador - nayemador.com\n# Source: FadeMind-add.dead\n# Source URL: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Dead/hosts\n# Modified: mar, 31 gen 23 22:11:34 CET\n# Entries: 14\n# Energized Protection - ad.porn.malware blocking.\n# https://energized.pro\n# License: MIT; https://energized.pro/license\n
+0.0.0.0 avast-downloads.com
+0.0.0.0 blacksnake.com
+0.0.0.0 europcareer.com
+0.0.0.0 get-avast.com
+0.0.0.0 iphonegames3g.com
+0.0.0.0 microsoft-update.name
+0.0.0.0 sunonsunday.com
+0.0.0.0 thesunonsunday.com
+0.0.0.0 toolbar.wibiya.com
+0.0.0.0 www.avast-downloads.com
+0.0.0.0 www.europcareer.com
+0.0.0.0 www.get-avast.com
+0.0.0.0 www.iphonegames3g.com
+0.0.0.0 www.microsoft-update.name
